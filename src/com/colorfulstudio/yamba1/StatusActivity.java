@@ -153,7 +153,6 @@ public class StatusActivity extends Activity implements OnClickListener,
     	return twitter;
     }
 
-	@Override
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
 			String key) {
 		// invalidate twitter object
